@@ -1,0 +1,328 @@
+body{
+  width: 100%;
+  overflow-x: hidden;
+}
+.upper-site, header{
+    font-family: "Gilroy",sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    
+    line-height: 1.8;
+    overflow-x: hidden;
+    padding: 10px 60px;
+}
+
+header{
+  
+  height: 120px;
+  width: 100%;
+}
+
+header img{
+  width: 7rem;
+  height: 1.1rem;
+  float: left;
+
+  position: absolute;
+  top: 35px;
+  left: 60px;
+}
+header nav{
+  position: absolute;
+  top: 10px;
+  right: 345px;
+
+}
+nav ol li{
+  list-style-type: none;
+  margin-right: 23px;
+  padding-left: 20px;
+  padding-right: 24.37px;
+  display: inline-block;
+
+}
+nav ol li a{
+  text-decoration: none;
+  color: black;
+  font-size: .875rem;
+  line-height: 1.5;
+  font: weight 100px;
+}
+
+
+.fa.fa-search {
+  font-size: 21px;
+  position: absolute;
+  top: 28px;
+  right: 330px;
+}
+
+header #subscribe{
+  position: absolute;
+  top: 18px;
+  right: 88px;
+
+  margin: auto;
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 7px 4px;
+  width: 210px;
+  background-color: rgb(255, 255, 255);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.upper-site{
+height: 550px;
+}
+.Focuse{
+
+  width: 50%;
+
+}
+.Focuse .a{
+  font-size: 18px;
+  margin: 0px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+.Focuse .b{
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+  font-size: 35px;
+  line-height: 1.5;
+}
+.Focuse .c{
+  margin: 0;
+  padding: 0;
+  margin-top: 25px;
+  font-size: 20px;
+  line-height: 1.3;
+}
+.subs{
+  margin: 0;
+  padding: 0;
+  margin-top: 55px;
+
+  border: 1px solid #ecf3ff;
+  border-radius: 6px;
+
+  width: 85%;
+  height: 55px;
+  background-color: #ecf3ff;
+}
+
+
+.subs .email{
+  margin-top: 17px;
+  margin-left: 17px;
+  font-size: 17px;
+  background-color: #ecf3ff ;
+  border: 1px solid #ecf3ff;
+}
+.subs .button{
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 6px 15px;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  background-color: #1c1c1d ;
+  border-radius: 7px;
+
+  float: right;
+
+}
+.Focuse-img{
+  position: absolute;
+  top: 158px;
+  right: 5%;
+
+  width: 45%;
+  height: 500px;
+
+}
+
+.Focuse-img img {
+  width: 80%;
+  margin-left: 10%;
+  
+}
+
+.outer{
+  position: relative;
+  left: 0;
+  right: 0;
+  height: 330px;
+  background-color: #f9f9f9;
+
+  padding: 10px 60px;
+
+}
+
+.second{
+  position: absolute;
+  right: 0;
+  left: 60px;
+  width: 100%;
+  height: auto;
+  margin-top: 60px;
+
+  line-height: 1.3;
+  overflow-x: hidden;
+}
+
+.second p b{
+  margin: 0;
+  padding: 0;
+
+  width: 100%;
+  height: 80px;
+  font-size: 30px;
+  line-height: 0.8;
+}
+.second .date{
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.second .para{
+  margin: 0;
+  padding: 0;
+  padding-right: 120px;
+  font-size: 18px;
+  margin-bottom: 30px;
+
+}
+
+.fa-arrow-right{
+  font-size: 21px;
+  font-weight:lighter;
+
+
+  
+
+}
+span{
+  background-color: #e0dbdb;
+  padding: 11px;
+  border-radius: 20px;
+}
+.dotted-line {
+  border: 1px dotted rgb(139, 139, 139);
+  width: 90%;
+  height: 0;
+  margin-top: 40px;
+}
+
+.second-outer{
+  position: relative;
+  left: 0;
+  right: 0;
+  height: 330px;
+  background-color: #f9f9f9;
+
+  padding: 0px 60px;
+
+}
+
+.second-outer-last{
+  position: relative;
+  left: 0;
+  right: 0;
+  height: 130px;
+  background-color: #f9f9f9;
+
+  padding: 0px 60px;
+
+}
+.second-outer-last button{
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-left: 46%;
+  margin-top: 20px;
+  
+}
+.second-outer-last button a{
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.Podcasts{
+  width: 100%;
+  padding: 10px 60px;
+  height: auto;
+}
+.Featured-Podcasts{
+  text-align: center;
+  font-size: 35px;
+  margin-top: 120px;
+  margin-bottom: 80px;
+  
+}
+
+.pod1 {
+  overflow-x: hidden;
+
+  width: 25%;
+  font-size: 17px;
+  float: left;
+  overflow: hidden;
+
+}
+
+.pod2 {
+  overflow-x: hidden;
+
+  width: 25%;
+  font-size: 17px;
+  float: left;
+  margin-left: 100px;
+  overflow: hidden;
+
+}
+
+.pod3{
+  overflow-x: hidden;
+
+  width: 25%;
+  font-size: 17px;
+  float: left;
+  margin-left: 90px;
+  overflow: hidden;
+
+
+}
+
+.pod1, .pod2, .pod3{
+  height: 320px;
+}
+.Podcasts a{
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 7px;
+  padding: 7px 20px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+
+}
+
+.btn{
+  margin-top: 40px;
+}
+.fa-play{
+  margin-right: 10px;
+}
+
+.pod1 .p1, .pod2 .p1, .pod3 .p1{
+   font-size: 24px ;
+}
